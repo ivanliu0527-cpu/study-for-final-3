@@ -8,7 +8,8 @@ sale_target = st.number_input("Enter Monthly Sales Target(in USD):",
                               min_value = 0.00,
                               value = 50000.00,
                               step = 1000,
-                              format = "%.2f" )
+                              format = "%.2f" 
+                             )
 region = st.selectbox(
   "Select Region", 
   ["North", "South", "East", "West"] )
