@@ -15,7 +15,7 @@ region = st.selectbox(
 
 if st.button("Submit"):
   st.write("###Submission Summary###")
-  st.write("###f"**Monthly Sale Targer:** ${sale_target:,.2f}")
+  st.write(f"**Monthly Sales Target:** ${sales_target:,.2f}")
   st.write(f"**Selected Region:** {region}")
   st.success("Dashborad updated successfully")
   if sale_target > 100000:
