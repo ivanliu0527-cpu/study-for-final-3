@@ -4,7 +4,7 @@ st.title("Retail Business Dashboard")
 st.header("Manager Input Section")
 st.write("Please enter the monthly sales target and select the region")
 
-sale_target = st.number_input("Enter Monthly Sales Target(in USD):"
+sale_target = st.number_input("Enter Monthly Sales Target(in USD):",
                               min_value = 0.0
                               value = 50000.0
                               step = 1000
